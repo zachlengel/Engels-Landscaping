@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 
 * {
   margin: 0;
@@ -132,7 +134,7 @@ html {
 .logo {
   position: absolute;
   top: 5px;
-  right: 10px;
+  right: 0;
   font-size: 1.1rem;
   color: #0e2431;
 }
@@ -182,12 +184,18 @@ html {
   padding: 2em 0;
   line-height: 2.2em;
   border-radius: 2em;
-  font-size: 100%;
   box-shadow: 1em 1em 1em black;
+}
+
+.hours h1 {
+  font-size: 5vw;
+  text-decoration: underline;
 }
 
 .hours li  {
   list-style-type: none;
+  font-size: 4vw;
+  line-height: 1.7em;
 }
 
 .hours li:nth-child(1) {
@@ -210,9 +218,9 @@ html {
   background-color: #0e2431d9;
   color: white;
   margin: 2em 5%;
-  padding: 2em;
-  border-radius: 2em;
-  font-size: 150%;
+  padding: 1em;
+  border-radius: 1em;
+  font-size: 3vw;
   box-shadow: 1em 1em 1em black;
 }
 
@@ -238,12 +246,12 @@ html {
 
 .container-about h1 {
   font-size: 2.5em;
-  margin-bottom: 1vh;
+  margin-bottom: 3vw;
   text-decoration: underline;
 }
 
 .container-about p {
-  font-size: 2vh;
+  font-size: 3vw;
 }
 
 .container-about .about {
@@ -285,11 +293,12 @@ html {
 .container-index h1 {
   background-color: #0e2431d9;;
   padding: 1em;
-  border-radius: 2em;
+  border-radius: 1em;
   box-shadow: 1em 1em 1em black;
   margin-bottom: 1em;
   color: white;
-  font-size: calc(2vh + 2vw);
+  font-size: 4vw;
+  font-family: "Source Code Pro";
 }
 
 .container-index img {
@@ -305,7 +314,7 @@ html {
   margin: 2vh 0 2vh 0;
   box-shadow: 1em 1em 1em black;
   color: white;
-  font-size: 1.5em;
+  font-size: 3vw;
   line-height: 2.2em;
   text-align: right;
 }
@@ -318,7 +327,7 @@ html {
 .container-sales {
   background-color: rgba(255, 255, 255, 0.489);
   margin: 1em auto;
-  padding: 2em;
+  padding: 1em;
   line-height: 2em;
   color: white;
   border-radius: 1em;
@@ -341,6 +350,12 @@ html {
 
 .container-sales .sales h1 {
   text-decoration: underline;
+  font-size: 4vw;
+}
+
+.container-sales p {
+  font-size: 2vw;
+  line-height: 2em;
 }
 
 .container-sales img {
